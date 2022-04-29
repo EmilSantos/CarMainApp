@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207C6260281A32E700F35AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C625F281A32E700F35AE0 /* AppDelegate.swift */; };
+		207C6262281A32E700F35AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6261281A32E700F35AE0 /* SceneDelegate.swift */; };
+		207C6264281A32E700F35AE0 /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6263281A32E700F35AE0 /* VehicleListViewController.swift */; };
+		207C6267281A32E700F35AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207C6265281A32E700F35AE0 /* Main.storyboard */; };
+		207C6269281A32EA00F35AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207C6268281A32EA00F35AE0 /* Assets.xcassets */; };
+		207C626C281A32EA00F35AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207C626A281A32EA00F35AE0 /* LaunchScreen.storyboard */; };
+		207C6277281A32EA00F35AE0 /* CarMaintenanceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6276281A32EA00F35AE0 /* CarMaintenanceAppTests.swift */; };
+		207C6281281A32EA00F35AE0 /* CarMaintenanceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6280281A32EA00F35AE0 /* CarMaintenanceAppUITests.swift */; };
+		207C6283281A32EA00F35AE0 /* CarMaintenanceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6282281A32EA00F35AE0 /* CarMaintenanceAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207C6273281A32EA00F35AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207C6254281A32E700F35AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207C625B281A32E700F35AE0;
+			remoteInfo = CarMaintenanceApp;
+		};
+		207C627D281A32EA00F35AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207C6254281A32E700F35AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207C625B281A32E700F35AE0;
+			remoteInfo = CarMaintenanceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207C625C281A32E700F35AE0 /* CarMaintenanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMaintenanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207C625F281A32E700F35AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		207C6261281A32E700F35AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		207C6263281A32E700F35AE0 /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
+		207C6266281A32E700F35AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207C6268281A32EA00F35AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207C626B281A32EA00F35AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207C626D281A32EA00F35AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207C6272281A32EA00F35AE0 /* CarMaintenanceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMaintenanceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207C6276281A32EA00F35AE0 /* CarMaintenanceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceAppTests.swift; sourceTree = "<group>"; };
+		207C627C281A32EA00F35AE0 /* CarMaintenanceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMaintenanceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207C6280281A32EA00F35AE0 /* CarMaintenanceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceAppUITests.swift; sourceTree = "<group>"; };
+		207C6282281A32EA00F35AE0 /* CarMaintenanceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207C6259281A32E700F35AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C626F281A32EA00F35AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C6279281A32EA00F35AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207C6253281A32E700F35AE0 = {
+			isa = PBXGroup;
+			children = (
+				207C625E281A32E700F35AE0 /* CarMaintenanceApp */,
+				207C6275281A32EA00F35AE0 /* CarMaintenanceAppTests */,
+				207C627F281A32EA00F35AE0 /* CarMaintenanceAppUITests */,
+				207C625D281A32E700F35AE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207C625D281A32E700F35AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207C625C281A32E700F35AE0 /* CarMaintenanceApp.app */,
+				207C6272281A32EA00F35AE0 /* CarMaintenanceAppTests.xctest */,
+				207C627C281A32EA00F35AE0 /* CarMaintenanceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207C625E281A32E700F35AE0 /* CarMaintenanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				207C625F281A32E700F35AE0 /* AppDelegate.swift */,
+				207C6261281A32E700F35AE0 /* SceneDelegate.swift */,
+				207C6263281A32E700F35AE0 /* VehicleListViewController.swift */,
+				207C6265281A32E700F35AE0 /* Main.storyboard */,
+				207C6268281A32EA00F35AE0 /* Assets.xcassets */,
+				207C626A281A32EA00F35AE0 /* LaunchScreen.storyboard */,
+				207C626D281A32EA00F35AE0 /* Info.plist */,
+			);
+			path = CarMaintenanceApp;
+			sourceTree = "<group>";
+		};
+		207C6275281A32EA00F35AE0 /* CarMaintenanceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				207C6276281A32EA00F35AE0 /* CarMaintenanceAppTests.swift */,
+			);
+			path = CarMaintenanceAppTests;
+			sourceTree = "<group>";
+		};
+		207C627F281A32EA00F35AE0 /* CarMaintenanceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				207C6280281A32EA00F35AE0 /* CarMaintenanceAppUITests.swift */,
+				207C6282281A32EA00F35AE0 /* CarMaintenanceAppUITestsLaunchTests.swift */,
+			);
+			path = CarMaintenanceAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207C625B281A32E700F35AE0 /* CarMaintenanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207C6286281A32EA00F35AE0 /* Build configuration list for PBXNativeTarget "CarMaintenanceApp" */;
+			buildPhases = (
+				207C6258281A32E700F35AE0 /* Sources */,
+				207C6259281A32E700F35AE0 /* Frameworks */,
+				207C625A281A32E700F35AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarMaintenanceApp;
+			productName = CarMaintenanceApp;
+			productReference = 207C625C281A32E700F35AE0 /* CarMaintenanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207C6271281A32EA00F35AE0 /* CarMaintenanceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207C6289281A32EA00F35AE0 /* Build configuration list for PBXNativeTarget "CarMaintenanceAppTests" */;
+			buildPhases = (
+				207C626E281A32EA00F35AE0 /* Sources */,
+				207C626F281A32EA00F35AE0 /* Frameworks */,
+				207C6270281A32EA00F35AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207C6274281A32EA00F35AE0 /* PBXTargetDependency */,
+			);
+			name = CarMaintenanceAppTests;
+			productName = CarMaintenanceAppTests;
+			productReference = 207C6272281A32EA00F35AE0 /* CarMaintenanceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		207C627B281A32EA00F35AE0 /* CarMaintenanceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207C628C281A32EA00F35AE0 /* Build configuration list for PBXNativeTarget "CarMaintenanceAppUITests" */;
+			buildPhases = (
+				207C6278281A32EA00F35AE0 /* Sources */,
+				207C6279281A32EA00F35AE0 /* Frameworks */,
+				207C627A281A32EA00F35AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207C627E281A32EA00F35AE0 /* PBXTargetDependency */,
+			);
+			name = CarMaintenanceAppUITests;
+			productName = CarMaintenanceAppUITests;
+			productReference = 207C627C281A32EA00F35AE0 /* CarMaintenanceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207C6254281A32E700F35AE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					207C625B281A32E700F35AE0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					207C6271281A32EA00F35AE0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 207C625B281A32E700F35AE0;
+					};
+					207C627B281A32EA00F35AE0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 207C625B281A32E700F35AE0;
+					};
+				};
+			};
+			buildConfigurationList = 207C6257281A32E700F35AE0 /* Build configuration list for PBXProject "CarMaintenanceApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207C6253281A32E700F35AE0;
+			productRefGroup = 207C625D281A32E700F35AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207C625B281A32E700F35AE0 /* CarMaintenanceApp */,
+				207C6271281A32EA00F35AE0 /* CarMaintenanceAppTests */,
+				207C627B281A32EA00F35AE0 /* CarMaintenanceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207C625A281A32E700F35AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C626C281A32EA00F35AE0 /* LaunchScreen.storyboard in Resources */,
+				207C6269281A32EA00F35AE0 /* Assets.xcassets in Resources */,
+				207C6267281A32E700F35AE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C6270281A32EA00F35AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C627A281A32EA00F35AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207C6258281A32E700F35AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C6264281A32E700F35AE0 /* VehicleListViewController.swift in Sources */,
+				207C6260281A32E700F35AE0 /* AppDelegate.swift in Sources */,
+				207C6262281A32E700F35AE0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C626E281A32EA00F35AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C6277281A32EA00F35AE0 /* CarMaintenanceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207C6278281A32EA00F35AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C6281281A32EA00F35AE0 /* CarMaintenanceAppUITests.swift in Sources */,
+				207C6283281A32EA00F35AE0 /* CarMaintenanceAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207C6274281A32EA00F35AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207C625B281A32E700F35AE0 /* CarMaintenanceApp */;
+			targetProxy = 207C6273281A32EA00F35AE0 /* PBXContainerItemProxy */;
+		};
+		207C627E281A32EA00F35AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207C625B281A32E700F35AE0 /* CarMaintenanceApp */;
+			targetProxy = 207C627D281A32EA00F35AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207C6265281A32E700F35AE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207C6266281A32E700F35AE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207C626A281A32EA00F35AE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207C626B281A32EA00F35AE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207C6284281A32EA00F35AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207C6285281A32EA00F35AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207C6287281A32EA00F35AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUR37J42K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarMaintenanceApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmilSantos.CarMaintenanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		207C6288281A32EA00F35AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUR37J42K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarMaintenanceApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmilSantos.CarMaintenanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		207C628A281A32EA00F35AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUR37J42K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmilSantos.CarMaintenanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMaintenanceApp.app/CarMaintenanceApp";
+			};
+			name = Debug;
+		};
+		207C628B281A32EA00F35AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUR37J42K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmilSantos.CarMaintenanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMaintenanceApp.app/CarMaintenanceApp";
+			};
+			name = Release;
+		};
+		207C628D281A32EA00F35AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUR37J42K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmilSantos.CarMaintenanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarMaintenanceApp;
+			};
+			name = Debug;
+		};
+		207C628E281A32EA00F35AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUR37J42K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmilSantos.CarMaintenanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarMaintenanceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207C6257281A32E700F35AE0 /* Build configuration list for PBXProject "CarMaintenanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C6284281A32EA00F35AE0 /* Debug */,
+				207C6285281A32EA00F35AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207C6286281A32EA00F35AE0 /* Build configuration list for PBXNativeTarget "CarMaintenanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C6287281A32EA00F35AE0 /* Debug */,
+				207C6288281A32EA00F35AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207C6289281A32EA00F35AE0 /* Build configuration list for PBXNativeTarget "CarMaintenanceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C628A281A32EA00F35AE0 /* Debug */,
+				207C628B281A32EA00F35AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207C628C281A32EA00F35AE0 /* Build configuration list for PBXNativeTarget "CarMaintenanceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207C628D281A32EA00F35AE0 /* Debug */,
+				207C628E281A32EA00F35AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207C6254281A32E700F35AE0 /* Project object */;
+}
