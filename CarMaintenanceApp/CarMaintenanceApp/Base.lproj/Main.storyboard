@@ -32,7 +32,13 @@
                             <outlet property="delegate" destination="cvv-rU-90D" id="jDg-W8-QmR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="GarageNav" id="bnf-IC-Hzu"/>
+                    <navigationItem key="navigationItem" title="GarageNav" id="bnf-IC-Hzu">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="xxi-pH-fee">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="cvv-rU-90D" id="JgP-db-khf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xvB-8N-aIB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
