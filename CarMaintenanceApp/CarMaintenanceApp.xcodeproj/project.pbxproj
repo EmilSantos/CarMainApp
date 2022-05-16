@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2037F92D2828C5D800F2C932 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2037F92C2828C5D800F2C932 /* Vehicle.swift */; };
 		207C6260281A32E700F35AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C625F281A32E700F35AE0 /* AppDelegate.swift */; };
 		207C6262281A32E700F35AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6261281A32E700F35AE0 /* SceneDelegate.swift */; };
 		207C6264281A32E700F35AE0 /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6263281A32E700F35AE0 /* VehicleListViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2037F92C2828C5D800F2C932 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		207C625C281A32E700F35AE0 /* CarMaintenanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMaintenanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207C625F281A32E700F35AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		207C6261281A32E700F35AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2037F92E2828C5EA00F2C932 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				2037F92C2828C5D800F2C932 /* Vehicle.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		2037F92F2828C60500F2C932 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				207C6263281A32E700F35AE0 /* VehicleListViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2037F9302828C63C00F2C932 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				207C6265281A32E700F35AE0 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2037F9312828C64F00F2C932 /* Suppporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				207C6268281A32EA00F35AE0 /* Assets.xcassets */,
+				207C626A281A32EA00F35AE0 /* LaunchScreen.storyboard */,
+			);
+			path = "Suppporting Files";
+			sourceTree = "<group>";
+		};
 		207C6253281A32E700F35AE0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +136,10 @@
 			children = (
 				207C625F281A32E700F35AE0 /* AppDelegate.swift */,
 				207C6261281A32E700F35AE0 /* SceneDelegate.swift */,
-				207C6263281A32E700F35AE0 /* VehicleListViewController.swift */,
-				207C6265281A32E700F35AE0 /* Main.storyboard */,
-				207C6268281A32EA00F35AE0 /* Assets.xcassets */,
-				207C626A281A32EA00F35AE0 /* LaunchScreen.storyboard */,
+				2037F92F2828C60500F2C932 /* Controllers */,
+				2037F92E2828C5EA00F2C932 /* Data Model */,
+				2037F9302828C63C00F2C932 /* Views */,
+				2037F9312828C64F00F2C932 /* Suppporting Files */,
 				207C626D281A32EA00F35AE0 /* Info.plist */,
 			);
 			path = CarMaintenanceApp;
@@ -258,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2037F92D2828C5D800F2C932 /* Vehicle.swift in Sources */,
 				207C6264281A32E700F35AE0 /* VehicleListViewController.swift in Sources */,
 				207C6260281A32E700F35AE0 /* AppDelegate.swift in Sources */,
 				207C6262281A32E700F35AE0 /* SceneDelegate.swift in Sources */,
