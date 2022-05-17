@@ -15,17 +15,8 @@ class VehicleListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let newVehicle = Vehicle()
-        newVehicle.title = "Tesla Model Y"
-        itemArray.append(newVehicle)
         
-        let newVehicle2 = Vehicle()
-        newVehicle2.title = "Honda CBR300"
-        itemArray.append(newVehicle2)
-        
-        let newVehicle3 = Vehicle()
-        newVehicle3.title = "Go Kart 300"
-        itemArray.append(newVehicle3)
+        loadItems()
         
 //        if let items = defaults.array(forKey: "PersistedVehicleListArray") as? [Vehicle] {
 //            itemArray = items
@@ -99,6 +90,17 @@ class VehicleListViewController: UITableViewController {
         }
         
         self.tableView.reloadData()
+    }
+    
+    func loadItems() {
+        if let data = try? Data(contentsOf: dataFilePath!) {
+            let decoder = PropertyListDecoder()
+            do{
+                itemArray = try decoder.decode([Vehicle].self, from: data)
+            } catch {
+                print("Error decoding item array, \(error)")
+            }
+        }
     }
     
 }
