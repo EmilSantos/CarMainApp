@@ -5,27 +5,26 @@
 //  Created by emil on 4/27/22.
 //
 
+
 import UIKit
 import CoreData
 
 class VehicleListViewController: UITableViewController {
 
     var itemArray = [Vehicle]()
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist")
+    
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
         
         //loadItems()
         
-//        if let items = defaults.array(forKey: "PersistedVehicleListArray") as? [Vehicle] {
-//            itemArray = items
-//        }
-        
-        // Do any additional setup after loading the view.
     }
+    
+    //MARK - Tableview Datasource Methods
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemArray.count
